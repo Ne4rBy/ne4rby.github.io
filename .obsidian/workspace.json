@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "fa0219b0b7f00c09",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e1a78cc30bda065",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16f850c09226f4d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2024-05-25-knife_writeup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "179627ecd0816d47",
+    "type": "split",
+    "children": [
+      {
+        "id": "2dc640d16a52e38d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e152929b929098f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0981a000e1eb8342",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f9c2c72c1792738a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "27c6998992b4e28b",
+    "type": "split",
+    "children": [
+      {
+        "id": "edd6904bf082c466",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eedf0d7cf5b97be2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2024-05-25-knife_writeup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90541d05c3a2e604",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2024-05-25-knife_writeup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b67315c7f74d7ab8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1e7845692b6bcf5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2024-05-25-knife_writeup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "16f850c09226f4d0",
+  "lastOpenFiles": [
+    "_posts/2024-05-23-devvortex_writeup.md",
+    "_posts/2024-05-25-knife_writeup.md",
+    "_tabs/about.md",
+    "_site/tags/php-8-1-0-dev/index.html",
+    "_site/tags/php-8-1-0-dev",
+    "_site/tags/abusign-php/index.html",
+    "_site/tags/abusign-php",
+    "_site/assets/img/Knife/KnifePwn.png",
+    "assets/img/Knife/KnifePwn.png",
+    "_site/assets/img/Knife/JamesShell.png",
+    "assets/img/Knife/JamesShell.png",
+    "_site/assets/img/Knife/knifeMainPage.png",
+    "assets/img/Knife/_site/knifeMainPage.png",
+    "assets/img/Knife/_site/Knife.png",
+    "assets/img/Knife/_site",
+    "assets/img/Knife/knifeMainPage.png",
+    "().md",
+    "assets/img/Knife/principalPage.png",
+    "_site/posts/knife_writeup/index.html",
+    "_site/posts/knife_writeup",
+    "_site/assets/img/Knife/Knife.png",
+    "_site/assets/img/Knife",
+    "assets/img/Knife/000000000",
+    "assets/img/Knife",
+    "_posts/2024-05-24-cozyhosting_writeup.md"
+  ]
+}

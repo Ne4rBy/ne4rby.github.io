@@ -13,15 +13,15 @@ tags:
   - OSCP
   - MySQL
   - Password-Cracking
-  - Apport-CLI
+  - Apport-CLI-Binary
 media_subpath: /assets/img/Devvortex/
 ---
 
 ![Desktop View](Devvortex.png){: w="800"  h="400" }
 
-#### DevVortex
+#### DevVortex Skills
 
->DevVortex is a easy Linux machine where we will use the following skills:
+>DevVortex is an easy Linux machine where we will use the following skills:
 
 -  **Port Discovery**
 -  **Subdomain Fuzzing**
@@ -31,7 +31,7 @@ media_subpath: /assets/img/Devvortex/
 -  **Password Re-utilization** 
 -  **Basic MySQL Syntax**
 -  **Cracking Password with Hashcat**
--  **Abusing Apport-CLI Sudoers**
+-  **Abusing Apport-CLI Binary - Sudoers**
 
 ---
 ## IP Address Enumeration
@@ -48,7 +48,7 @@ Discovered open port 80/tcp on 10.10.11.242
 Discovered open port 22/tcp on 10.10.11.242
 ```
 
-Then i launched a basic group of script to seek more info from the open ports:
+Then i launched a basic group of scripts to seek more info from the open ports:
 
 ```perl
 nmap -sCV -p22,80 10.10.11.242
@@ -98,7 +98,7 @@ css                     [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 1
 js                      [Status: 301, Size: 178, Words: 6, Lines: 8, Duration: 138ms]
 ```
 
-Those folders are now even worth looking, so at this point my best option is to fuzz subdomains, this is usually made with `gobuster vhost` but i really like `ffuf`.
+Those folders are not even worth looking, so at this point my best option is to fuzz subdomains, this is usually made with `gobuster vhost` but i really like `ffuf`.
 
 ---
 ### Fuzzing Subdomains
@@ -118,7 +118,7 @@ ffuf -c -fs 154 -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-1100
 After a few seconds we obtain a response, there is a `dev.devvortex.htb`, so as above we have to add it to `/etc/hosts`.
 
 ```bash
-echo "10.10.11.242 dev.devvortex.htb" | sudo tee -a /etc/hosts
+echo "10.10.11.242 dev.devvortex.htb" | tee -a /etc/hosts
 ```
 
 ---
@@ -204,6 +204,10 @@ Although these credentials are from the MySQL Database, we can try using them in
 
 After submitting the credentials we are inside the administrative Joomla instance :)
 
+---
+
+### Exploiting Administrative Joomla Instance
+
 Taking a look i found two users registered:
 
 ![Desktop View](Users.png)
@@ -274,7 +278,7 @@ And there we go, we got access to the machine.
 
 ### TTY Treatment 
 
-Once we get the reverse shell, let's find a way to scale privileges, but before we have to get a fully interactive shell, there are multiple ways but i like to do it this way: 
+Once we get the reverse shell, let's find a way to scale privileges, but before, we have to get a fully interactive shell, there are multiple ways but i like to do it this way: 
 
 ```bash
 script /dev/null -c bash
@@ -379,7 +383,7 @@ Password: tequieromucho
 logan@devvortex:/$ 
 ```
 
-Now we can read the `root.txt` inside `/root/`.
+Now we can read the `user.txt` inside `/home/logan`.
 
 ![Desktop View](user.png)
 
