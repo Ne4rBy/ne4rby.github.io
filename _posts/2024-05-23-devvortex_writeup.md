@@ -14,6 +14,7 @@ tags:
   - MySQL
   - Password-Cracking
   - Apport-CLI-Binary
+  - "#Virtual-Hosting"
 media_subpath: /assets/img/Devvortex/
 ---
 
@@ -71,7 +72,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Taking a look at the port 80, we are being redirected to ***http://devvortex.htb***, so i added the URL to my */etc/hosts*:
 
 ```bash
-echo "10.10.11.242 devvortex.htb" | sudo tee -a /etc/hosts
+echo "10.10.11.242 devvortex.htb" | tee -a /etc/hosts
 ```
 ---
 

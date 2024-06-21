@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2024-05-25-knife_writeup.md",
+                "file": "_posts/2024-06-21-analytics_writeup.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2024-05-25-knife_writeup.md",
+                "file": "_posts/2024-06-21-analytics_writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2024-05-25-knife_writeup.md",
+                "file": "_posts/2024-06-21-analytics_writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2024-05-25-knife_writeup.md"
+                "file": "_posts/2024-06-21-analytics_writeup.md"
               }
             }
           }
@@ -146,32 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16f850c09226f4d0",
+  "active": "e152929b929098f3",
   "lastOpenFiles": [
+    "_site/tags/docker/index.html",
+    "_site/tags/docker",
     "_posts/2024-05-23-devvortex_writeup.md",
     "_posts/2024-05-25-knife_writeup.md",
+    "_site/tags/virtual-hosting/index.html",
+    "_site/tags/virtual-hosting",
+    "_posts/2024-06-21-analytics_writeup.md",
+    "_site/tags/metabase/index.html",
+    "_site/tags/metabase",
+    "_site/assets/img/Analytics/AnalyticsUserFlag.png",
+    "_site/assets/img/Analytics/AnalyticsRootFlag.png",
+    "_site/assets/img/Analytics/AnalyticsPwn.png",
+    "assets/img/Analytics/AnalyticsPwn.png",
+    "assets/img/Analytics/AnalyticsRootFlag.png",
+    "assets/img/Analytics/AnalyticsUserFlag.png",
+    "_site/posts/analytics_writeup/index.html",
+    "_site/posts/analytics_writeup",
+    "_site/assets/img/Analytics/AnalyticsSubdomainPage.png",
+    "_site/assets/img/Analytics/AnalyticsPrincipalPage.png",
+    "_site/assets/img/Analytics/Analytics.png",
+    "_site/assets/img/Analytics",
+    "assets/img/Analytics/AnalyticsSubdomainPage.png",
+    "assets/img/Analytics",
     "_tabs/about.md",
     "_site/tags/php-8-1-0-dev/index.html",
-    "_site/tags/php-8-1-0-dev",
-    "_site/tags/abusign-php/index.html",
-    "_site/tags/abusign-php",
-    "_site/assets/img/Knife/KnifePwn.png",
-    "assets/img/Knife/KnifePwn.png",
-    "_site/assets/img/Knife/JamesShell.png",
-    "assets/img/Knife/JamesShell.png",
-    "_site/assets/img/Knife/knifeMainPage.png",
-    "assets/img/Knife/_site/knifeMainPage.png",
-    "assets/img/Knife/_site/Knife.png",
-    "assets/img/Knife/_site",
-    "assets/img/Knife/knifeMainPage.png",
     "().md",
-    "assets/img/Knife/principalPage.png",
-    "_site/posts/knife_writeup/index.html",
-    "_site/posts/knife_writeup",
-    "_site/assets/img/Knife/Knife.png",
-    "_site/assets/img/Knife",
-    "assets/img/Knife/000000000",
-    "assets/img/Knife",
     "_posts/2024-05-24-cozyhosting_writeup.md"
   ]
 }
