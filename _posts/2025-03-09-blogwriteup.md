@@ -125,7 +125,7 @@ Let's start with the **Samba** service.
 ---
 ## Port 445 Enumeration
 
-Let's start by checking if we can access any share without providing crdentials.
+Let's start by checking if we can access any share without providing credentials.
 
 ```bash
 ❯ smbclient -L \\10.10.155.37 -N
