@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-03-10-anonymouswriteup.md",
+                "file": "_posts/2025-03-12-lazyadminwriteup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-10-anonymouswriteup"
+              "title": "2025-03-12-lazyadminwriteup"
             }
           }
         ]
@@ -167,16 +167,28 @@
   },
   "active": "393b7f79a36e5932",
   "lastOpenFiles": [
-    "assets/img/Anonymous/Anonymous.png",
-    "assets/img/Anonymous/puppos.jpeg",
-    "assets/img/Anonymous/corgo2.jpg",
-    "assets/img/Anonymous/AnonymousPwn.png",
-    "assets/img/Anonymous",
-    "assets/img/puppos.jpeg",
-    "assets/img/corgo2.jpg",
-    "assets/img/AnonymousPwn.png",
-    "_posts/2025-03-08-uawriteup.md",
     "_posts/2025-03-10-anonymouswriteup.md",
+    "_posts/2025-03-12-lazyadminwriteup.md",
+    "_site/tags/script-modification/index.html",
+    "_site/tags/script-modification",
+    "_site/tags/database-backup/index.html",
+    "_site/tags/database-backup",
+    "_site/assets/img/LazyAdmin/LazyAdminReverseShell.png",
+    "_site/assets/img/LazyAdmin/LazyAdminPwn.png",
+    "_site/assets/img/LazyAdmin/LazyAdminMainPage2.png",
+    "_site/assets/img/LazyAdmin/LazyAdminMainPage.png",
+    "_site/assets/img/LazyAdmin/LazyAdminLoginPage.png",
+    "_site/assets/img/LazyAdmin/LazyAdminDashboard.png",
+    "_site/assets/img/LazyAdmin/LazyAdminCrackStation.png",
+    "_site/assets/img/LazyAdmin/LazyAdmin.jpeg",
+    "_site/assets/img/LazyAdmin",
+    "assets/img/LazyAdmin/LazyAdmin.jpeg",
+    "assets/img/LazyAdmin/LazyAdminPwn.png",
+    "_site/posts/lazyadminwriteup/index.html",
+    "_site/posts/lazyadminwriteup",
+    "assets/img/LazyAdmin",
+    "assets/img/Anonymous",
+    "_posts/2025-03-08-uawriteup.md",
     "_posts/2025-03-09-blogwriteup.md"
   ]
 }
