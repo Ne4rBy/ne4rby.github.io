@@ -318,7 +318,7 @@ If we try to access `http://10.129.43.192/dev/phpbash.php` again we will see tha
 
 ![Desktop View](BashedSecuredWebsite.png)
 
-### Securing and Sanitazing user `www-data`
+### Securing and Sanitizing user `www-data`
 
 The user `www-data` was able to execute any command as `scriptmanager`, that's definitely not a good practice, we can remove the sudoers privilege by removing the line from `visudo`.
 
